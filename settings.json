@@ -1,0 +1,49 @@
+{
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.mouseWheelZoom": false,
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 20,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.iconTheme": "material-icon-theme",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeLensFontFamily": "c",
+  "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
+  "editor.fontFamily": "JetBrains Mono, DecoType Naskh Variants, Consolas, 'Courier New', monospace",
+  "editor.fontWeight": 300,
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "diffEditor.experimental.showMoves": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.sideBar.location": "right",
+  "editor.cursorBlinking": "expand",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Night Owl",
+  "editor.stickyScroll.enabled": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.linkedEditing": true,
+  "git.openRepositoryInParentFolders": "always"
+}
+
