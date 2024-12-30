@@ -1,12 +1,42 @@
 {
+  // open json editor for settings
+  "workbench.settings.editor": "json",
+  "workbench.iconTheme": "material-icon-theme",
+
+  // Change font
+  "editor.fontFamily": "Space Mono, FN Srutilipi, Sakkal Majalla, monospace",
+  "scm.inputFontFamily": "JetBrains Mono, Geist Mono",
+  "terminal.integrated.fontFamily": "JetBrains Mono, monospace",
+  "chat.editor.fontFamily": "JetBrains Mono, Geist Mono",
+  "debug.console.fontFamily": "JetBrains Mono, Geist Mono",
+  "editor.codeLensFontFamily": "JetBrains Mono, Geist Mono",
+  "notebook.output.fontFamily": "JetBrains Mono, Geist Mono",
+  "markdown.preview.fontFamily": "JetBrains Mono, Geist Mono",
+  "editor.inlayHints.fontFamily": "JetBrains Mono, Geist Mono",
+
+  // Font size
+  "editor.fontSize": 17,
+  "terminal.integrated.fontSize": 12,
+
+  // ui
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "editor.scrollbar.vertical": "auto",
+  "window.titleBarStyle": "custom",
+
+  "editor.scrollbar.horizontal": "auto",
   "liveServer.settings.donotVerifyTags": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "editor.mouseWheelZoom": false,
   "files.autoSave": "afterDelay",
-  "editor.fontSize": 20,
   "security.workspace.trust.untrustedFiles": "open",
-  "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
@@ -15,35 +45,52 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.codeLensFontFamily": "c",
   "workbench.settings.applyToAllProfiles": ["editor.fontFamily"],
-  "editor.fontFamily": "JetBrains Mono, DecoType Naskh Variants, Consolas, 'Courier New', monospace",
   "editor.fontWeight": 300,
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
   "diffEditor.experimental.showMoves": true,
   "editor.cursorSmoothCaretAnimation": "on",
-  "workbench.sideBar.location": "right",
   "editor.cursorBlinking": "expand",
   "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.minimap.enabled": false,
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
   },
-  "tabnine.experimentalAutoImports": true,
   "window.menuBarVisibility": "toggle",
-  "workbench.startupEditor": "none",
-  "workbench.colorTheme": "Night Owl",
   "editor.stickyScroll.enabled": false,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.linkedEditing": true,
-  "git.openRepositoryInParentFolders": "always"
-}
+  "git.openRepositoryInParentFolders": "always",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "explorer.confirmDelete": false,
 
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
+  "breadcrumbs.filePath": "off",
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "window.zoomLevel": 0.75,
+  "window.customTitleBarVisibility": "auto",
+  "workbench.sideBar.location": "right",
+  "pieces.cloudCapabilities": "Blended",
+  "pieces.telemetry": true,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  "pieces.toShowUpdateExtensionNotification": false,
+  "pieces.OS.launchOnStartup": "Yes"
+}
