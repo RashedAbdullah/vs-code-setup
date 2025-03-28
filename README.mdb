@@ -1,4 +1,4 @@
-```bash filename="VS Code Settings"
+```bash
 {
     // open json editor for settings:
     "workbench.settings.editor": "json",
