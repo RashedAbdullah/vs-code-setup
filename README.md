@@ -29,7 +29,6 @@
     "liveServer.settings.donotVerifyTags": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "editor.mouseWheelZoom": false,
-    "files.autoSave": "afterDelay",
     "security.workspace.trust.untrustedFiles": "open",
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -65,7 +64,6 @@
       "editor.formatOnPaste": true,
       "editor.formatOnType": true
     },
-    "window.menuBarVisibility": "toggle",
     "editor.stickyScroll.enabled": false,
     "emmet.includeLanguages": {
       "javascript": "javascriptreact"
@@ -94,6 +92,14 @@
     "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
     "pieces.toShowUpdateExtensionNotification": false,
     "pieces.OS.launchOnStartup": "Yes",
-    "geminicodeassist.inlineSuggestions.enableAuto": false
+    "geminicodeassist.inlineSuggestions.enableAuto": false,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cSpell.userWords": [
+      "মুসলিম",
+      "হালাকাহ"
+    ],
+    "files.autoSave": "afterDelay"
   }
 ```
